@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Schemes in India</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Indian Government Schemes</h1>
+    </header>
+    <main>
+        
+        <section id="education" class="category-section">
+            <h2>Education Schemes</h2>
+            <div class="scheme-list" id="educationSchemes">
+                <!-- Education schemes will be added dynamically here -->
+            </div>
+        </section>
+        <section id="health" class="category-section">
+            <h2>Health Schemes</h2>
+            <div class="scheme-list" id="healthSchemes">
+                <!-- Health schemes will be added dynamically here -->
+            </div>
+        </section>
+        <section id="loans" class="category-section">
+            <h2>Loans Schemes</h2>
+            <div class="scheme-list" id="loansSchemes">
+                <!-- Loans schemes will be added dynamically here -->
+            </div>
+        </section>
+        <section id="pension" class="category-section">
+            <h2>Pension Schemes</h2>
+            <div class="scheme-list" id="pensionSchemes">
+                <!-- Pension schemes will be added dynamically here -->
+            </div>
+        </section>
+        <section id="about" class="category-section  ">
+            <h2>About</h2>
+            <p>Welcome to our platform dedicated to exploring and understanding various government schemes in India.</p> Here, you can learn about schemes related to education, health, loans, pension, and more.</p>
+        </section>
+        <section id="government-blog" class="category-section hidden">
+            <h2>Government Blog</h2>
+            <p>Stay updated with the latest news and insights from the government by exploring our blog section.</p>
+        </section>
+    </main>
+
+    <!-- Buttons to toggle visibility of sections -->
+    <div class="toggle-sections">
+        <button id="showAboutBtn">About</button>
+        <button id="showGovernmentBlogBtn"> Government Blog</button>
+    </div>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container">
+        <img src="chatbot.png" alt="Chatbot" id="chatbotBtn">
+        <div class="chatbot-content" id="chatbot">
+            <div class="chat-container" id="chatContainer">
+                <div class="chat-header">Government scheme Chat bot</div>
+                <div class="chat-messages" id="chatDisplay"></div>
+                <input type="text" id="userInput" placeholder="Type your message...">
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+   
+</body>
+</html>
+
+
+
+
